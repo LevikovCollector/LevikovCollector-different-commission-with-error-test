@@ -82,6 +82,6 @@ class MainKtTest {
         val cardType = "Visa"
 
         val result = calculateCommission(cardType, amount = userAmount)
-        assertEquals(3503.0, result, 0.0)
+        assertEquals(3500.0, result, 0.0)
     }
 }
